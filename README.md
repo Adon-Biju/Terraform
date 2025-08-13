@@ -1,8 +1,8 @@
 # AWS S3 Static Website with Terraform (Demo-Only)
 
 This repo shows how to provision an S3 static website using Terraform.
-- **Zero-cost**: CI validates Terraform only. No resources are created.
 - Live demo of the website HTML is hosted via **GitHub Pages** (free).
+- Please visit to view the static webpage https://adon-biju.github.io/Terraform/ 
 
 ## Terraform
 - Run locally (no backend):
