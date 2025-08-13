@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My AWS S3 Static Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: linear-gradient(to bottom, #f7f9fc, #e4ebf7);
+            padding: 50px;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        p {
+            color: #34495e;
+            font-size: 1.2em;
+        }
+        .footer {
+            margin-top: 50px;
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+        img {
+            margin-top: 30px;
+            max-width: 200px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🚀 Welcome to My AWS S3 Static Website</h1>
+    <p>This site is hosted on <strong>Amazon S3</strong> and deployed using <strong>Terraform</strong>.</p>
+    <p>Feel free to check out the code in my GitHub portfolio!</p>
+
+    <img src="http://<var.bucketname>.s3-website-<us-east-1>.amazonaws.com/linkedin.jpg" alt="My LinkedIn">
+
+    <div class="footer">
+        &copy; 2025 Your Name. All rights reserved.
+    </div>
+</body>
+</html>
